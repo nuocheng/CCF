@@ -3,18 +3,18 @@
 ### 目录结构
 
 ```
-├── dataset # 原始数据集
+├── #原始数据集
 │   ├── entprise_evaluate.csv
 │   ├── entprise_submit.csv
 │   ├── train
-│   │   ├── annual_report_info.csv
-│   │   ├── base_info.csv
-│   │   ├── change_info.csv
-│   │   ├── entprise_info.csv
-│   │   ├── news_info.csv
-│   │   ├── other_info.csv
-│   │   └── tax_info.csv
-│   └── train.zip
+│       ├── annual_report_info.csv
+│       ├── base_info.csv
+│       ├── change_info.csv
+│       ├── entprise_info.csv
+│       ├── news_info.csv
+│       ├── other_info.csv
+│       └── tax_info.csv
+│  
 ├── feature # 特征工程中间文件
 │   ├── cat_cols.json 
 │   ├── test.csv 
